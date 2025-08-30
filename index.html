@@ -37,20 +37,23 @@
     #modeToggle:hover {background:#00aacc;}
 
     /* Hero Section */
-    .firstSection{display:flex;justify-content:center;align-items:center;flex-direction:column;
-        padding:80px 50px;min-height:90vh;text-align:center;transition:0.3s;}
+    .firstSection{display:flex;justify-content:space-between;align-items:center;
+        padding:80px 100px;min-height:90vh;transition:0.3s;flex-wrap:wrap;}
+    .leftSection{flex:1;min-width:300px;}
     .leftSection h1{font-size:48px;line-height:1.3;}
     .leftSection h1 span{color:#00d4ff;}
     .leftSection p{margin:20px 0;font-size:18px;color:#dcdcdc;}
     .btn{padding:12px 28px;background:#00d4ff;border:none;border-radius:25px;color:black;font-weight:600;cursor:pointer;transition:.3s;}
     .btn:hover{background:#00aacc;}
+    .rightSection{flex:1;min-width:300px;display:flex;justify-content:center;}
+    .rightSection img{width:300px;border-radius:50%;border:5px solid #00d4ff;box-shadow:0 0 25px #00d4ff;}
 
     /* Hero Social Icons */
-    .hero-social a{margin:10px;font-size:24px;color:#00d4ff;transition:0.3s;}
+    .hero-social a{margin-right:15px;color:#00d4ff;font-size:24px;transition:0.3s;}
     .hero-social a:hover{color:#00aacc;transform:scale(1.2);}
 
     /* Sections */
-    section{padding:80px 50px;}
+    section{padding:80px 100px;}
     .section-title{text-align:center;font-size:32px;margin-bottom:40px;color:#00d4ff;}
     
     /* About */
@@ -124,6 +127,10 @@
           <a href="tel:+916206487182"><i class="fas fa-phone"></i></a>
         </div>
       </div>
+      <div class="rightSection">
+        <!-- Profile Image -->
+        <img src="profile.jpeg" alt="Kalyan Profile">
+      </div>
     </section>
 
     <!-- About -->
@@ -184,7 +191,7 @@
         <p>Or reach me on:</p>
         <p>
           <a href="https://github.com/Coderkalyansingh" target="_blank">GitHub</a> |
-          <a href="https://www.linkedin.com/in/kalyan-kumar-singh-1420a6296" target="_blank">LinkedIn</a> |
+          <a href="https://www.linkedin.com/in/kalyan-kumar-singh" target="_blank">LinkedIn</a> |
           <a href="mailto:kalyansingh824123@gmail.com">Email</a> |
           <span>+91 6206487182</span>
         </p>
@@ -196,7 +203,7 @@
     © 2025 Kalyan Kumar Singh | All Rights Reserved.
     <div>
       <a href="https://github.com/Coderkalyansingh" target="_blank">GitHub</a> |
-      <a href="https://www.linkedin.com/in/kalyan-kumar-singh-1420a6296" target="_blank">LinkedIn</a> |
+      <a href="https://www.linkedin.com/in/kalyan-kumar-singh" target="_blank">LinkedIn</a> |
       <a href="mailto:kalyansingh824123@gmail.com">Email</a> |
       <span>+91 6206487182</span>
     </div>
@@ -227,4 +234,3 @@
   </script>
 </body>
 </html>
-
